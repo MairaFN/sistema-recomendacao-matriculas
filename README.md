@@ -129,7 +129,7 @@ sistema-matricula/
 
 *Estrutura planejada para organização do desenvolvimento.*
 
-## 🚀 Como Executar o Projeto
+## 🚀 Executar o Projeto
 
 ### Pré-requisitos
 
@@ -141,47 +141,6 @@ sistema-matricula/
 
 ```bash
 git clone https://github.com/MairaFN/sistema-recomendacao-matriculas.git
-
-```
-
-### 2. Acessar a pasta do projeto
-
-```bash
-cd sistema-matricula
-```
-
-### 3. Criar um ambiente virtual
-
-```bash
-python -m venv venv
-```
-
-Ativar no Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Ativar no Linux/macOS:
-
-```bash
-source venv/bin/activate
-```
-
-### 4. Instalar as dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Executar a aplicação
-
-```bash
-streamlit run app.py
-```
-
-A aplicação ficará disponível no navegador futuramente.
-
 
 ```
 
