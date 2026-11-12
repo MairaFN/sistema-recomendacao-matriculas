@@ -129,20 +129,79 @@ sistema-matricula/
 
 *Estrutura planejada para organização do desenvolvimento.*
 
-## 🚀 Executar o Projeto
+## 🚀 Como Configurar e Executar o Projeto
 
-### Pré-requisitos
+Siga o passo a passo abaixo para configurar o ambiente de desenvolvimento e executar o script de criação do banco de dados na sua máquina local.
 
-- Python 3.10 ou superior.
-- Git instalado.
-- Editor de código, como Visual Studio Code.
-
-### 1. Clonar o repositório
-
+### 1. Clonar o Repositório
+Abra o seu terminal e faça o clone do projeto (substitua a URL pela do seu repositório, se necessário):
 ```bash
-git clone https://github.com/MairaFN/sistema-recomendacao-matriculas.git
-
+git clone https://github.com/seu-usuario/sistema-recomendacao-de-matriculas.git
+cd sistema-recomendacao-de-matriculas
 ```
+
+### 2. Abrir no VS Code
+Com o terminal dentro da pasta do projeto, abra o editor:
+```bash
+code .
+```
+
+### 3. Criar e Ativar o Ambiente Virtual
+É essencial utilizar um ambiente virtual para isolar as dependências do projeto. No terminal integrado do VS Code:
+
+**Crie o ambiente:**
+```bash
+python -m venv .venv
+```
+
+**Ative o ambiente (Windows - PowerShell):**
+```bash
+.\.venv\Scripts\Activate
+```
+*(Você verá um `(.venv)` verde no início da linha de comando indicando que o ambiente está ativo).*
+
+### 4. Instalar as Dependências
+Com o ambiente ativado, instale as bibliotecas necessárias para a leitura dos dados (como o `openpyxl` para ler planilhas Excel):
+```bash
+pip install openpyxl
+# Ou, se já tiver atualizado o arquivo requirements.txt:
+# pip install -r requirements.txt
+```
+
+### 5. Posicionar os Arquivos de Dados
+Certifique-se de que os arquivos de origem estão corretamente posicionados dentro da pasta `dados/` na raiz do projeto:
+*   `dados/disciplinas.json` (Matriz curricular e pré-requisitos)
+*   `dados/Horário.xlsx` (Planilha com a oferta e horários do semestre atual)
+
+Sua estrutura deve estar parecida com isso:
+```text
+sistema-recomendacao-de-matriculas/
+├── banco/
+│   ├── conexao.py
+│   └── criar_tabelas.py
+├── dados/
+│   ├── disciplinas.json
+│   └── Horário.xlsx
+...
+```
+
+### 6. Executar a Criação do Banco de Dados
+Para processar o JSON, ler a planilha e criar as tabelas no SQLite, execute o módulo a partir da raiz do projeto:
+```bash
+python -m banco.criar_tabelas
+```
+> **Sucesso:** Se tudo ocorrer bem, você verá a mensagem de que os dados foram carregados e o arquivo `disciplinas.db` aparecerá dentro da pasta `banco/`.
+
+---
+
+### 🧩 Extensões Recomendadas (VS Code)
+
+Como o banco de dados `disciplinas.db` é um arquivo binário, o editor de texto padrão não consegue exibi-lo. Para visualizar as tabelas diretamente no VS Code:
+
+1. Vá na aba **Extensions** (Extensões) ou aperte `Ctrl+Shift+X`.
+2. Pesquise por **SQLite Viewer** (do desenvolvedor *Florian Klampfer*).
+3. Instale a extensão.
+4. Clique no arquivo `banco/disciplinas.db`. Uma interface visual será aberta, permitindo navegar pelas tabelas e dados importados.
 
 ## 📋 Funcionalidades Previstas
 
