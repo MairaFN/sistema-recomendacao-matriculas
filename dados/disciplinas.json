@@ -1,0 +1,790 @@
+{
+  "disciplinas": [
+    {
+      "codigo": "GRAD.00112",
+      "periodo": 1,
+      "nome": "ALGORITMOS",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.02640",
+      "periodo": 1,
+      "nome": "INGLÊS INSTRUMENTAL",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.02693",
+      "periodo": 1,
+      "nome": "INTRODUÇÃO A COMPUTAÇÃO",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.02946",
+      "periodo": 1,
+      "nome": "LEITURA E PRODUÇÃO DE TEXTO",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.03359",
+      "periodo": 1,
+      "nome": "MATEMÁTICA DISCRETA",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.00453",
+      "periodo": 2,
+      "nome": "CÁLCULO DIFERENCIAL E INTEGRAL I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.02891",
+      "periodo": 2,
+      "nome": "LABORATÓRIO DE PROGRAMAÇÃO I",
+      "carga_horaria": 30,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00112"
+      ]
+    },
+    {
+      "codigo": "GRAD.03095",
+      "periodo": 2,
+      "nome": "LINGUAGEM DE PROGRAMAÇÃO I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00112"
+      ]
+    },
+    {
+      "codigo": "GRAD.03295",
+      "periodo": 2,
+      "nome": "LÓGICA PARA COMPUTAÇÃO",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.03359"
+      ]
+    },
+    {
+      "codigo": "GRAD.03472",
+      "periodo": 2,
+      "nome": "METODOLOGIA CIENTÍFICA",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.02946"
+      ]
+    },
+    {
+      "codigo": "GRAD.05211",
+      "periodo": 2,
+      "nome": "TEORIA DOS GRAFOS",
+      "carga_horaria": 30,
+      "peso": 3,
+      "pre_requisitos": [
+        "GRAD.00112"
+      ]
+    },
+    {
+      "codigo": "GRAD.00111",
+      "periodo": 3,
+      "nome": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.00455",
+      "periodo": 3,
+      "nome": "CÁLCULO DIFERENCIAL E INTEGRAL II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00453"
+      ]
+    },
+    {
+      "codigo": "GRAD.01938",
+      "periodo": 3,
+      "nome": "FÍSICA PARA COMPUTAÇÃO",
+      "carga_horaria": 30,
+      "peso": 2,
+      "pre_requisitos": [
+        "GRAD.00453"
+      ]
+    },
+    {
+      "codigo": "GRAD.02893",
+      "periodo": 3,
+      "nome": "LABORATÓRIO DE PROGRAMAÇÃO II",
+      "carga_horaria": 30,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.02891",
+        "GRAD.03095"
+      ]
+    },
+    {
+      "codigo": "GRAD.03096",
+      "periodo": 3,
+      "nome": "LINGUAGEM DE PROGRAMAÇÃO II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.02891",
+        "GRAD.03095"
+      ]
+    },
+    {
+      "codigo": "GRAD.05143",
+      "periodo": 3,
+      "nome": "TECNOLOGIA, CIÊNCIA E SOCIEDADE",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.00105",
+      "periodo": 4,
+      "nome": "ÁLGEBRA LINEAR",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.00111"
+      ]
+    },
+    {
+      "codigo": "GRAD.01635",
+      "periodo": 4,
+      "nome": "ESTRUTURA DE DADOS",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.02893",
+        "GRAD.03096"
+      ]
+    },
+    {
+      "codigo": "GRAD.02862",
+      "periodo": 4,
+      "nome": "LABORATÓRIO DE ESTRUTURA DE DADOS",
+      "carga_horaria": 30,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.02893",
+        "GRAD.03096"
+      ]
+    },
+    {
+      "codigo": "GRAD.03837",
+      "periodo": 4,
+      "nome": "ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.02693"
+      ]
+    },
+    {
+      "codigo": "GRAD.03880",
+      "periodo": 4,
+      "nome": "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO",
+      "carga_horaria": 30,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00112"
+      ]
+    },
+    {
+      "codigo": "GRAD.05005",
+      "periodo": 4,
+      "nome": "SISTEMAS DE INFORMAÇÃO",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.00151",
+      "periodo": 5,
+      "nome": "ANÁLISE E PROJETO DE SISTEMAS",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05005"
+      ]
+    },
+    {
+      "codigo": "GRAD.00352",
+      "periodo": 5,
+      "nome": "BANCO DE DADOS I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00112",
+        "GRAD.05005"
+      ]
+    },
+    {
+      "codigo": "GRAD.03114",
+      "periodo": 5,
+      "nome": "LINGUAGENS FORMAIS E TEORIA DA COMPUTAÇÃO",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.03541",
+      "periodo": 5,
+      "nome": "MÉTODOS AVANÇADOS DE PROGRAMAÇÃO",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.02893",
+        "GRAD.03096"
+      ]
+    },
+    {
+      "codigo": "GRAD.04367",
+      "periodo": 5,
+      "nome": "PROBABILIDADE E ESTATÍSTICA",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": [
+        "GRAD.00455"
+      ]
+    },
+    {
+      "codigo": "GRAD.00353",
+      "periodo": 6,
+      "nome": "BANCO DE DADOS II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00352"
+      ]
+    },
+    {
+      "codigo": "GRAD.00465",
+      "periodo": 6,
+      "nome": "CÁLCULO NUMERICO",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.00455"
+      ]
+    },
+    {
+      "codigo": "GRAD.01257",
+      "periodo": 6,
+      "nome": "ENGENHARIA DE SOFTWARE I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00151"
+      ]
+    },
+    {
+      "codigo": "GRAD.01712",
+      "periodo": 6,
+      "nome": "ÉTICA EM COMPUTAÇÃO",
+      "carga_horaria": 30,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.02854",
+      "periodo": 6,
+      "nome": "LABORATÓRIO DE ENGENHARIA DE SOFTWARE I",
+      "carga_horaria": 30,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.00151"
+      ]
+    },
+    {
+      "codigo": "GRAD.04806",
+      "periodo": 6,
+      "nome": "REDES DE COMPUTADORES I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.03837",
+        "GRAD.05005"
+      ]
+    },
+    {
+      "codigo": "GRAD.01258",
+      "periodo": 7,
+      "nome": "ENGENHARIA DE SOFTWARE II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.01257"
+      ]
+    },
+    {
+      "codigo": "GRAD.02274",
+      "periodo": 7,
+      "nome": "GERENCIAMENTO DE PROJETOS",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.04807",
+      "periodo": 7,
+      "nome": "REDES DE COMPUTADORES II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.04806"
+      ]
+    },
+    {
+      "codigo": "GRAD.05011",
+      "periodo": 7,
+      "nome": "SISTEMAS OPERACIONAIS",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05107",
+      "periodo": 7,
+      "nome": "TÉCNICAS E ANÁLISE DE ALGORITMOS",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.01635"
+      ]
+    },
+    {
+      "codigo": "GRAD.00589",
+      "periodo": 8,
+      "nome": "COMPILADORES",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.03114"
+      ]
+    },
+    {
+      "codigo": "GRAD.02665",
+      "periodo": 8,
+      "nome": "INTELIGÊNCIA ARTIFICIAL",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.01635",
+        "GRAD.03880"
+      ]
+    },
+    {
+      "codigo": "GRAD.04458",
+      "periodo": 8,
+      "nome": "PROGRAMAÇÃO WEB",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.03541"
+      ]
+    },
+    {
+      "codigo": "GRAD.04472",
+      "periodo": 8,
+      "nome": "PROJETO DE INTERFACE HOMEM-COMPUTADOR",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": [
+        "GRAD.01258"
+      ]
+    },
+    {
+      "codigo": "GRAD.05006",
+      "periodo": 8,
+      "nome": "SISTEMAS DISTRIBUÍDOS",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05011",
+        "GRAD.04806"
+      ]
+    },
+    {
+      "codigo": "GRAD.00617",
+      "periodo": 9,
+      "nome": "COMPUTAÇÃO GRÁFICA",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.00105",
+        "GRAD.05107"
+      ]
+    },
+    {
+      "codigo": "GRAD.05084",
+      "periodo": 9,
+      "nome": "TCC I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05089",
+      "periodo": 10,
+      "nome": "TCC II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.00033",
+      "periodo": 0,
+      "nome": "ADMINISTRAÇÃO DE EMPRESAS",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.00828",
+      "periodo": 0,
+      "nome": "DESENVOLVIMENTO PARA DISPOSITIVOS MÓVEIS",
+      "carga_horaria": 60,
+      "peso": 6,
+      "pre_requisitos": [
+        "GRAD.03541"
+      ]
+    },
+    {
+      "codigo": "GRAD.01063",
+      "periodo": 0,
+      "nome": "ECONOMIA",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.01223",
+      "periodo": 0,
+      "nome": "EMPREENDEDORISMO",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.01396",
+      "periodo": 0,
+      "nome": "ESTÁGIO SUPERVISIONADO",
+      "carga_horaria": 360,
+      "peso": 5,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.01908",
+      "periodo": 0,
+      "nome": "FÍSICA CLÁSSICA",
+      "carga_horaria": 30,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.02811",
+      "periodo": 0,
+      "nome": "JOGOS DIGITAIS",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.03541"
+      ]
+    },
+    {
+      "codigo": "GRAD.02948",
+      "periodo": 0,
+      "nome": "LEITURA E PRODUÇÃO DE TEXTO II",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": [
+        "GRAD.02946"
+      ]
+    },
+    {
+      "codigo": "GRAD.03556",
+      "periodo": 0,
+      "nome": "MÉTODOS FORMAIS",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": [
+        "GRAD.01257"
+      ]
+    },
+    {
+      "codigo": "GRAD.04007",
+      "periodo": 0,
+      "nome": "PESQUISA APLICADA À COMPUTAÇÃO",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.04873",
+      "periodo": 0,
+      "nome": "SEGURANÇA E AUDITORIA DE SISTEMAS",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05113",
+      "periodo": 0,
+      "nome": "TECNOLOGIA DA INFORMAÇÃO",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05431",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM BANCO DE DADOS I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.00353"
+      ]
+    },
+    {
+      "codigo": "GRAD.05432",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM BANCO DE DADOS II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05431"
+      ]
+    },
+    {
+      "codigo": "GRAD.05448",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05449",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05448"
+      ]
+    },
+    {
+      "codigo": "GRAD.05463",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.01258"
+      ]
+    },
+    {
+      "codigo": "GRAD.05464",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05463"
+      ]
+    },
+    {
+      "codigo": "GRAD.05508",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM GERENCIAMENTO DE PROJETOS I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.02274"
+      ]
+    },
+    {
+      "codigo": "GRAD.05509",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM GERENCIAMENTO DE PROJETOS II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05508"
+      ]
+    },
+    {
+      "codigo": "GRAD.05526",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM INFORMÁTICA NA EDUCAÇÃO I",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05527",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM INFORMÁTICA NA EDUCAÇÃO II",
+      "carga_horaria": 60,
+      "peso": 2,
+      "pre_requisitos": [
+        "GRAD.05526"
+      ]
+    },
+    {
+      "codigo": "GRAD.05530",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM INTELIGÊNCIA ARTIFICIAL I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.02665"
+      ]
+    },
+    {
+      "codigo": "GRAD.05531",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM INTELIGÊNCIA ARTIFICIAL II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05530"
+      ]
+    },
+    {
+      "codigo": "GRAD.05537",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM LINGUAGEM DE PROGRAMAÇÃO I",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.03880"
+      ]
+    },
+    {
+      "codigo": "GRAD.05538",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM LINGUAGEM DE PROGRAMAÇÃO II",
+      "carga_horaria": 60,
+      "peso": 5,
+      "pre_requisitos": [
+        "GRAD.05537"
+      ]
+    },
+    {
+      "codigo": "GRAD.05567",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM PROCESSAMENTO MULTIMÍDIA I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05568",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM PROCESSAMENTO MULTIMÍDIA II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05567"
+      ]
+    },
+    {
+      "codigo": "GRAD.05583",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM REDES DE COMPUTADORES I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": []
+    },
+    {
+      "codigo": "GRAD.05584",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM REDES DE COMPUTADORES II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05583"
+      ]
+    },
+    {
+      "codigo": "GRAD.05595",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM SISTEMAS DE INFORMAÇÃO I",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": [
+        "GRAD.05005"
+      ]
+    },
+    {
+      "codigo": "GRAD.05596",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM SISTEMAS DE INFORMAÇÃO II",
+      "carga_horaria": 60,
+      "peso": 3,
+      "pre_requisitos": [
+        "GRAD.05595"
+      ]
+    },
+    {
+      "codigo": "GRAD.05598",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM SISTEMAS DISTRIBUÍDOS I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05006"
+      ]
+    },
+    {
+      "codigo": "GRAD.05599",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM SISTEMAS DISTRIBUÍDOS II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05598"
+      ]
+    },
+    {
+      "codigo": "GRAD.05601",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM SISTEMAS EMBARCADOS I",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.03837"
+      ]
+    },
+    {
+      "codigo": "GRAD.05602",
+      "periodo": 0,
+      "nome": "TÓPICOS ESPECIAIS EM SISTEMAS EMBARCADOS II",
+      "carga_horaria": 60,
+      "peso": 4,
+      "pre_requisitos": [
+        "GRAD.05601"
+      ]
+    }
+  ]
+}
